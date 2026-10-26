@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Travel Blocks
  * Description: Custom SCF blocks for the travel site (Offer Card, Testimonial Card).
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Riaz Ahmad
  * Requires Plugins: secure-custom-fields
  */
