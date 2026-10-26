@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "travel/testimonial-card",
+  "title": "Testimonial Card",
+  "category": "design",
+  "icon": "format-quote",
+  "description": "A customer quote with name, role, photo and star rating.",
+  "keywords": ["testimonial", "review", "quote"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": { "align": false },
+  "style": "file:./style.css"
+}

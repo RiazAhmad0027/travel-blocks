@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "travel/offer-card",
+  "title": "Offer Card",
+  "category": "design",
+  "icon": "palmtree",
+  "description": "A travel offer with photo, title, price and button.",
+  "keywords": ["travel", "offer", "card"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": { "align": false, "anchor": true },
+  "style": "file:./style.css",
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "offer_title": "Bali Beach Escape",
+        "offer_price": "899",
+        "offer_nights": "5"
+      }
+    }
+  }
+}
